@@ -2,6 +2,7 @@
 This simple tool for drawing lines on a canvas was written using JS to manipulate the 2D context of an HTML element.    
 The equation used to create a line was written by me, and behaves like existing functions provided by the canvas itself.  
 The aim of this code is to put into practice the concepts learned during the Analytical Geometry course in Electronic Engineering.    
+[You can test on the web right now!](https://daguerpedro.github.io/geometria/)  
   
 ![preview](./Preview.png)
 
