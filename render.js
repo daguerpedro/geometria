@@ -15,8 +15,13 @@ class vec2 { constructor(x, y) { this.x = x; this.y = y; } }
 
 points = []
 
-function line(origin, direction, steps) {
+function line(origin, direction) {
     let d = document.getElementById('dbg').checked
+
+    // Distância entre dois vetores 
+    let steps = Math.sqrt(Math.pow((origin.x - direction.x), 2) + Math.pow((origin.y - direction.y), 2));
+
+    // Precisamos criar T pontos, onde T é a Distância em pixels de 'origin' e 'direction'
     for (let T = 0; T < 1; T = T + (1 / steps)) {
 
         /*
@@ -86,8 +91,7 @@ window.addEventListener('load', () => {
         let dx = document.getElementById('dx').value
         let dy = document.getElementById('dy').value
 
-        let setps = document.getElementById('st').value
-        line(new vec2(ox, oy), new vec2(dx, dy), setps)
+        line(new vec2(ox, oy), new vec2(dx, dy))
     }
 
     _nline();
