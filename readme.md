@@ -1,14 +1,12 @@
 # SOBRE ESTE PROGRAMA
-[English version](./readmeUS.md)  
-
-Esta simples ferramenta para desenhar retas em um canvas foi escrito utilizano JS para manipular o contexto 2D de um elemento HTML.    
-A equação utilizada para criar uma reta foi escrita por mim, e se comporta como funções já existentes providas pelo próprio canvas.  
-O objetivo deste código é por em prática os conceitos aprendidos durante a matéria de Geometria Analítica no curso de Engenharia Eletrônica.    
+Essa ferramenta foi desenvolvida com o objetivo de por em prática os conceitos aprendidos durante a matéria de Geometria Analítica no curso de Engenharia Eletrônica.    
+A função utilizada foi escrita por mim, e se comporta como funções já existentes providas pelo próprio elemento "canvas".  
+   
 [Você pode testar o site agora!](https://daguerpedro.github.io/geometria/)  
   
 ![preview](./Preview.png)
 
-> Ao ativar 'Debug line' a reta é printada ao console.
+> Ao ativar 'Debug line' a reta é escrita no console.
 
 # GEOMETRIA ANALÍTICA
   
